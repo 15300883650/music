@@ -1,10 +1,10 @@
 import React from 'react';
 import './index.css'
-import {NavLink,Route,Redirect} from 'react-router-dom'
+import {NavLink,Route,Redirect,Switch} from 'react-router-dom'
 import Recommend from '../recommend'
 import Search from '../search'
 import Rank from '../rank'
-import { Switch } from 'antd-mobile';
+
 export default class Home extends React.Component{
     constructor(props){
         super(props)
